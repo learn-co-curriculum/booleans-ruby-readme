@@ -15,7 +15,7 @@ lesson: booleans
 * In Ruby there are three main boolean operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. So what do they return? Only `true` or `false`. 
   * For an and (`&&`) to evaluate to true, both values of either side of the double ampersand must evaluate to true.
   * For an or (`||`) to evalute to true, only one value on either side of the double pipes must evaluate to true.
-  * Finally, a not (`!`) reverses the logical state of its operand. If a condition is true, then `!` will make false and vice versa.
+  * Finally, a not (`!`) reverses the logical state of its operand. If a condition is true, then `!` will make it false and vice versa.
 * Open up IRB and type the non-commented portions of the code below. Try and predict what the result will be before checking with the comments or IRB:
 
 ```ruby
