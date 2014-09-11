@@ -1,7 +1,7 @@
 ---
 tags: readme
 language: ruby
-resources: 1
+resources: 0
 track: web development
 topic: ruby
 unit: control flow
