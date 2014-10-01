@@ -12,7 +12,7 @@ lesson: booleans
 
 ## Booleans
 
-* In Ruby there are three main boolean operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. So what do they return? Only `true` or `false`. 
+* In Ruby there are three main boolean operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. So what do they return? Only `true` or `false`.
   * For an and (`&&`) to evaluate to true, both values of either side of the double ampersand must evaluate to true.
   * For an or (`||`) to evalute to true, only one value on either side of the double pipes must evaluate to true.
   * Finally, a not (`!`) reverses the logical state of its operand. If a condition is true, then `!` will make it false and vice versa.
@@ -97,7 +97,7 @@ puts arels_mood == "happy"
 #  └── true
 puts arels_mood == "sad"
 #  └── false
-puts arels_mood == aris_mood
+puts arels_mood == arels_mood
 #  └── true
 ```
 
