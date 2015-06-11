@@ -8,7 +8,7 @@
 
 ## Logical Operators
 
-* In Ruby there are three main logical operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. So what do they return? Only `true` or `false`.
+* In Ruby there are three main logical operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. The return value is a boolean (either `true` or `false`).
   * For an and (`&&`) to evaluate to true, both values of either side of the double ampersand must evaluate to true.
   * For an or (`||`) to evalute to true, only one value on either side of the double pipes must evaluate to true.
   * Finally, a not (`!`) reverses the logical state of its operand. If a condition is true, then `!` will make it false and vice versa.
@@ -16,7 +16,7 @@
 
 ???
 
-#Logical Operators Quiz
+# Logical Operators Quiz
 
 ?: `true && true`
 (X) true () false
@@ -112,13 +112,13 @@ puts "yellow" == "yellow"
 * It can also compare variables with known values.
 
 ```rb
-arels_mood = "happy"
+mood = "happy"
 
-puts arels_mood == "happy"
+puts mood == "happy"
 #  └── true
-puts arels_mood == "sad"
+puts mood == "sad"
 #  └── false
-puts arels_mood == arels_mood
+puts mood == mood
 #  └── true
 ```
 
