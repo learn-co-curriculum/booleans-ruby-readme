@@ -1,5 +1,6 @@
 tags:
-  - readme
+  - comparison operators
+  - booleans
 languages:
   - ruby
 resources: 0
