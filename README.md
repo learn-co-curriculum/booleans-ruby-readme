@@ -1,8 +1,14 @@
-# Booleans and Comparisons
+# Logical Operators and Comparison Operators
 
-## Booleans
 
-* In Ruby there are three main boolean operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. So what do they return? Only `true` or `false`.
+## Objectives
+  
+  - Understand logical operators and their proper boolean return values 
+  - Understand comparison operators and their proper boolean return values 
+
+## Logical Operators
+
+* In Ruby there are three main logical operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. So what do they return? Only `true` or `false`.
   * For an and (`&&`) to evaluate to true, both values of either side of the double ampersand must evaluate to true.
   * For an or (`||`) to evalute to true, only one value on either side of the double pipes must evaluate to true.
   * Finally, a not (`!`) reverses the logical state of its operand. If a condition is true, then `!` will make it false and vice versa.
@@ -50,7 +56,7 @@ true || 1 == 1
 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))
 # => false
 ```
-## Comparisions
+## Comparison Operators
 
 * Ruby is good at comparing things. For instance, it knows that 14 is larger than 3. Let's see that in action.
 

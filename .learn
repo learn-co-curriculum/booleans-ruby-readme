@@ -1,5 +1,6 @@
 tags:
   - comparison operators
+  - logical operators
   - booleans
 languages:
   - ruby
