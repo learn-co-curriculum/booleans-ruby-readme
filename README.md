@@ -16,6 +16,10 @@ lesson: booleans
   * For an and (`&&`) to evaluate to true, both values of either side of the double ampersand must evaluate to true.
   * For an or (`||`) to evalute to true, only one value on either side of the double pipes must evaluate to true.
   * Finally, a not (`!`) reverses the logical state of its operand. If a condition is true, then `!` will make it false and vice versa.
+
+
+## Comparison Operators
+
 * Open up IRB and type the non-commented portions of the code below. Try and predict what the result will be before checking with the comments or IRB:
 
 ```ruby
@@ -60,6 +64,7 @@ true || 1 == 1
 3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))
 # => false
 ```
+
 ## Comparisions
 
 * Ruby is good at comparing things. For instance, it knows that 14 is larger than 3. Let's see that in action.
@@ -122,3 +127,92 @@ puts easter_eggs.class
 puts ducklings.class == easter_eggs.class
 #  └── true
 ```
+
+
+???
+
+# Logical Operators Quiz
+
+?: `true && true`
+
+(X)`true` ( )`false`
+
+?: `false && true`
+
+( )`true` (X)`false`
+
+?: `1 == 1 && 2 == 1`
+
+( )`true` (X)`false`
+
+?: `"test" == "test"`
+
+(X)`true` ( )`false`
+ 
+?: `1 == 1 || 2 != 1`
+
+(X)`true` ( )`false`
+ 
+?: `true && 1 == 1`
+
+(X)`true` ( )`false`
+ 
+?: `false && 0 != 0`
+
+( )`true` (X)`false`
+ 
+?: `true || 1 == 1`
+
+(X) true () false
+ 
+?: `"test" == "testing"`
+
+( )`true (X)`false`
+ 
+?: `1 != 0 && 2 == 1`
+
+( )`true` (X)`false`
+ 
+?: `"test" != "testing"`
+
+(X)true ( )`false`
+ 
+?: `"test" == 1`
+
+( )`true` (X)`false`
+
+?: `!(true && false)`
+
+(X)`true` ( )`false`
+
+?: `!(1 == 1 && 0 != 1)`
+
+( )`true` (X)`false`
+ 
+?: `!(10 == 1 || 1000 == 1000)`
+
+( )`true` (X)`false`
+ 
+?: `!(1 != 10 || 3 == 4)`
+
+( )`true` (X)`false`
+ 
+?: `!("testing" == "testing" && "Zed" == "Cool Guy")`
+
+(X)`true` ( )`false`
+ 
+?: `1 == 1 && (!("testing" == 1 || 1 == 0))`
+
+(X)`true` ( )`false`
+ 
+?: `"chunky" == "bacon" && (!(3 == 4 || 3 == 3))`
+
+( )`true` (X)`false`
+ 
+?: `3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))`
+
+( )`true` (X)`false`
+
+ 
+???
+
