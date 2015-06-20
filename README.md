@@ -1,5 +1,9 @@
 # Booleans and Comparisons
 
+## Objectives
+
+- Understand true and false
+
 ## Booleans
 
 * In Ruby there are three main boolean operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. So what do they return? Only `true` or `false`.
