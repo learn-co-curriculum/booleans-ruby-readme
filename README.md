@@ -2,17 +2,19 @@
 
 ## Objectives
 
-- Understand true and false
+1. Understand the concept of Boolen values
+2. Learn how to use boolean operators and understand what their return values are
+3. Learn how to use comparison operators and understand what their return values are
 
 ## Booleans
 
 We've already learned a bit about the boolean (true/false) data type. Boolean refers to the values of `true` and `false` which are their very own data types in Ruby. Every appearance, or instance, of `true` in a Ruby program is an instance of TrueClass. Every appearance of `false` in a Ruby program is an instance of FalseClass. 
 
-For now, we don't need to understand the conecpt of classes in depth. Just know that classes serve as templates for Ruby objects. Think of TrueClass and FalseClass like cookie cutters––there is a TrueClass cookie cutter and a FalseClass cookie cutter and every appearance of `true` or `false` is like a cookie made with the respective cookie cutter. 
+For now, we don't need to understand the concept of classes in depth. Just know that classes serve as templates for Ruby objects. Think of TrueClass and FalseClass like cookie cutters––there is a TrueClass cookie cutter and a FalseClass cookie cutter and every appearance of `true` or `false` is like a cookie made with the respective cookie cutter. 
 
 ## Boolean Operators
 
-How to we create boolean values in a Ruby program? Well, you can actually type `true` or `false` *or* we can write statements that *return* `true` or `false`. Now that we understand the concept of "truthiness"––i.e., that certain types of data are "truthy" and certain others are "falsey"––we can understand how to write such statements. 
+How do we create boolean values in a Ruby program? Well, you can actually type `true` or `false` *or* we can write statements that *return* `true` or `false`. Now that we understand the concept of "truthiness"––i.e., that certain types of data are "truthy" and certain others are "falsey"––we can understand how to write such statements. 
 
 We already know that Strings are one type of data that are "truthy". Drop into IRB and use the `!!`, double bang operator, to determine that in fact, the string `"hi"` is "truthy":
 
@@ -21,7 +23,7 @@ We already know that Strings are one type of data that are "truthy". Drop into I
   #=> true 
 ```
 
-In the next unit, we will learn how to use the native "truthiness" of data types like strings to write statements that returns `true`. 
+In the next unit, we will learn how to use the native "truthiness" of data types like strings to write statements that return `true`. 
 
 First, we're going to learn how to use **boolean operators** to write statements that return `true` or `false`.
 
@@ -120,7 +122,7 @@ true || 1 == 1
 Ruby is good at comparing things. For instance, it knows that 14 is larger than 3. Let's see that in action.
 
 ```rb
-puts 14 > 3
+14 > 3
   #=> true
 ```
 
@@ -139,21 +141,17 @@ Operator               | Checks if the value of...
 * Ruby can compare a lot more than just numbers. For instance, it can compare strings.
 
 ```rb
-puts "yellow" == "yellow"
-#  └── true
+"yellow" == "yellow"
+  #=>true
 ```
 
 * It can also compare variables with known values.
 
 ```rb
-arels_mood = "happy"
+my_mood = "happy"
 
-puts arels_mood == "happy"
-#  └── true
-puts arels_mood == "sad"
-#  └── false
-puts arels_mood == arels_mood
-#  └── true
+my_mood == "happy"
+ #=> true 
 ```
 
 * It can also compare variables with other variables.
@@ -162,20 +160,20 @@ puts arels_mood == arels_mood
 easter_eggs = 16
 ducklings = 3
 
-puts easter_eggs > ducklings
-#  └── true
-puts ducklings >= easter_eggs
-#  └── false
-puts ducklings == easter_eggs
-#  └── false
+easter_eggs > ducklings
+  #=> true
+ducklings >= easter_eggs
+  #=> false
+ducklings == easter_eggs
+  #=> false
 
 # if you call class on a variable, you can see if it's a string, an integer, etc.
-puts ducklings.class
-#  └── Integer
-puts easter_eggs.class
-#  └── Integer
-puts ducklings.class == easter_eggs.class
-#  └── true
+ducklings.class
+  #=> Integer
+easter_eggs.class
+  #=> Integer
+ducklings.class == easter_eggs.class
+  #=> true
 ```
 
 
