@@ -6,15 +6,71 @@
 
 ## Booleans
 
-* In Ruby there are three main boolean operators: `!` ("not"), `&&` ("and"), and `||` ("or"). These are really methods, which means they have return values. So what do they return? Only `true` or `false`.
-  * For an and (`&&`) to evaluate to true, both values of either side of the double ampersand must evaluate to true.
-  * For an or (`||`) to evalute to true, only one value on either side of the double pipes must evaluate to true.
-  * Finally, a not (`!`) reverses the logical state of its operand. If a condition is true, then `!` will make it false and vice versa.
+We've already learned a bit about the boolean (true/false) data type. Boolean refers to the values of `true` and `false` which are their very own data types in Ruby. Every appearance, or instance, of `true` in a Ruby program is an instance of TrueClass. Every appearance of `false` in a Ruby program is an instance of FalseClass. 
 
+For now, we don't need to understand the conecpt of classes in depth. Just know that classes serve as templates for Ruby objects. Think of TrueClass and FalseClass like cookie cutters––there is a TrueClass cookie cutter and a FalseClass cookie cutter and every appearance of `true` or `false` is like a cookie made with the respective cookie cutter. 
+
+## Boolean Operators
+
+How to we create boolean values in a Ruby program? Well, you can actually type `true` or `false` *or* we can write statements that *return* `true` or `false`. Now that we understand the concept of "truthiness"––i.e., that certain types of data are "truthy" and certain others are "falsey"––we can understand how to write such statements. 
+
+We already know that Strings are one type of data that are "truthy". Drop into IRB and use the `!!`, double bang operator, to determine that in fact, the string `"hi"` is "truthy":
+
+```ruby
+!!"hi"
+  #=> true 
+```
+
+In the next unit, we will learn how to use the native "truthiness" of data types like strings to write statements that returns `true`. 
+
+First, we're going to learn how to use **boolean operators** to write statements that return `true` or `false`.
+
+### What are Boolean Operators? 
+
+Boolean operators are really methods. That means they have return values. What do they return? `true` or `false`!
+
+* In Ruby there are three main boolean operators: `!` ("not"), `&&` ("and"), and `||` ("or"). 
+  * For an and (`&&`) to evaluate to true, both values of either side of the double ampersand must evaluate to true. For example: 
+
+  ```ruby
+  true && true 
+    #=> true
+
+  true && false
+    #=> false
+  ```
+  * For an or (`||`) to evalute to true, only one value on either side of the double pipes must evaluate to true. For example: 
+
+  ```ruby
+  false || true
+    #=> true
+  ```
+  * Finally, a not (`!`) reverses the logical state of its operand. If a condition is true, then `!` will make it false and vice versa. For example: 
+
+  ```ruby
+  !true 
+    #=> false
+
+  !false 
+    #=> true
+  ```
 
 ## Comparison Operators
 
-* Open up IRB and type the non-commented portions of the code below. Try and predict what the result will be before checking with the comments or IRB:
+To check if two values are equal, we use the *comparison operator*, `==`. If two things are equal, the statement will return `true`. Otherwise, it will return `false. For example: 
+
+```ruby
+1 == 1
+ #=> true
+
+1 == 7
+ #=> false
+```
+*This is different from the `=` that we use to set a variable equal to a value. 
+
+## Let's Practice!
+
+Open up IRB and type the non-commented portions of the code below. Try and predict what the result will be before checking with the comments or IRB:
 
 ```ruby
 true && true
@@ -59,13 +115,13 @@ true || 1 == 1
 # => false
 ```
 
-## Comparisions
+## More Comparison Operators 
 
-* Ruby is good at comparing things. For instance, it knows that 14 is larger than 3. Let's see that in action.
+Ruby is good at comparing things. For instance, it knows that 14 is larger than 3. Let's see that in action.
 
 ```rb
 puts 14 > 3
-#  └── true
+  #=> true
 ```
 
 * Here, 14 is larger than 3 so Ruby evaluates this to `true`. Comparisons in Ruby always evaluate to `true` or `false`.
@@ -102,7 +158,7 @@ puts arels_mood == arels_mood
 
 * It can also compare variables with other variables.
 
-```rb
+```ruby
 easter_eggs = 16
 ducklings = 3
 
@@ -157,7 +213,7 @@ puts ducklings.class == easter_eggs.class
  
 ?: `true || 1 == 1`
 
-(X) `true` ( ) `false`
+(X)`true` ( )`false`
  
 ?: `"test" == "testing"`
 
