@@ -157,11 +157,11 @@ puts ducklings.class == easter_eggs.class
  
 ?: `true || 1 == 1`
 
-(X) true () false
+(X) `true` ( ) `false`
  
 ?: `"test" == "testing"`
 
-( )`true (X)`false`
+( )`true` (X)`false`
  
 ?: `1 != 0 && 2 == 1`
 
@@ -169,7 +169,7 @@ puts ducklings.class == easter_eggs.class
  
 ?: `"test" != "testing"`
 
-(X)true ( )`false`
+(X)`true` ( )`false`
  
 ?: `"test" == 1`
 
