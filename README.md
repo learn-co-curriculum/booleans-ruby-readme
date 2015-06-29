@@ -2,7 +2,7 @@
 
 ## Objectives
 
-1. Understand the concept of Boolen values
+1. Understand the concept of Boolean values
 2. Learn how to use boolean operators and understand what their return values are
 3. Learn how to use comparison operators and understand what their return values are
 
