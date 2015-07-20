@@ -183,6 +183,8 @@ ducklings.class == easter_eggs.class
 
 Comparison operators are quintessential to developing logical flow.
 
+???
+
 # Logical Operators Quiz
 
 ?: `true && true`
