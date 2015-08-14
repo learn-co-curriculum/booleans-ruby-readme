@@ -183,90 +183,91 @@ ducklings.class == easter_eggs.class
 
 Comparison operators are quintessential to developing logical flow.
 
-???
+ <div class="quiz-block">
 
-# Logical Operators Quiz
+ <div class='quiz-title'> <h1> Logical Operators Quiz</h1></div>
 
-?: `true && true`
+ <div class='question-block'> <p class='question-title'>`true && true`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
 
-?: `false && true`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`false && true`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
 
-?: `1 == 1 && 2 == 1`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`1 == 1 && 2 == 1`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
 
-?: `"test" == "test"`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`"test" == "test"`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
  
-?: `1 == 1 || 2 != 1`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`1 == 1 || 2 != 1`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
  
-?: `true && 1 == 1`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`true && 1 == 1`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
  
-?: `false && 0 != 0`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`false && 0 != 0`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
  
-?: `true || 1 == 1`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`true || 1 == 1`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
  
-?: `"test" == "testing"`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`"test" == "testing"`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
  
-?: `1 != 0 && 2 == 1`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`1 != 0 && 2 == 1`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
  
-?: `"test" != "testing"`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`"test" != "testing"`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
  
-?: `"test" == 1`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`"test" == 1`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
 
-?: `!(true && false)`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`!(true && false)`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
 
-?: `!(1 == 1 && 0 != 1)`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`!(1 == 1 && 0 != 1)`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
  
-?: `!(10 == 1 || 1000 == 1000)`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`!(10 == 1 || 1000 == 1000)`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
  
-?: `!(1 != 10 || 3 == 4)`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`!(1 != 10 || 3 == 4)`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
  
-?: `!("testing" == "testing" && "Zed" == "Cool Guy")`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`!("testing" == "testing" && "Zed" == "Cool Guy")`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
  
-?: `1 == 1 && (!("testing" == 1 || 1 == 0))`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`1 == 1 && (!("testing" == 1 || 1 == 0))`</p>
 
-(X)`true` ( )`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0' class='answer'><span class='choice-index-span'>`true` </span><i class='fa fa-check-circle-o success-check'></i></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1'><span class='choice-index-span'>`false`
  
-?: `"chunky" == "bacon" && (!(3 == 4 || 3 == 3))`
+</span></div></form></div></div> <div class='question-block'> <p class='question-title'>`"chunky" == "bacon" && (!(3 == 4 || 3 == 3))`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`
  
-?: `3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))`
+</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div> <div class='question-block'> <p class='question-title'>`3 == 3 && (!("testing" == "testing" || "Ruby" == "Fun"))`</p>
 
-( )`true` (X)`false`
+ <div class='answer-block' data-question-type='multi_choice'><form class='question-form' accept-charset='UTF-8' method='post'> <div class='question-selection'><input id='multi-choice-0' type='radio' name='0' value='0'><span class='choice-index-span'>`true` </span></div> <div class='question-selection'><input id='multi-choice-1' type='radio' name='1' value='1' class='answer'><span class='choice-index-span'>`false`</span><i class='fa fa-check-circle-o success-check'></i></div></form></div></div>
 
  
-???
+</div>
 
+test
