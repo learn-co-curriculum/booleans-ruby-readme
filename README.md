@@ -138,8 +138,8 @@ The commonly used comparison operators are:
 |:--------:|:----------|
 | `==`     | If the values of the two the operands are *equal*, then the evaluation is `true`. |
 | `!=`     | If the values of the two operands are *not equal*, then the evaluation is `true`. |
-| `>`      | If the value of the left operand is *greater than* the value of right operand, then the evaluation is `true`. |
-| `<`      | If the value of the left operand is less than the value of the right operand, then evaluation is `true`. |
+| `>`      | If the value of the left operand is *greater than* the value of the right operand, then the evaluation is `true`. |
+| `<`      | If the value of the left operand is less than the value of the right operand, then the evaluation is `true`. |
 | `>=`     | If the value of the left operand is *greater than or equal to* the value of the right operand, then the evaluation is `true`. |
 | `<=`     | If the left operand is *less than or equal to* the value of the right operand, then the evaluation is `true`. |
 
@@ -181,7 +181,7 @@ ducklings.class == easter_eggs.class
   #=> true
 ```
 
-Comparison operators are quintessential to developing logical flow.
+Comparison operators are essential to developing logical flow.
 
 ???
 
