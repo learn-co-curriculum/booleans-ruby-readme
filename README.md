@@ -64,7 +64,7 @@ Finally, a `!` ("not") reverses the logical state of its operand: if a condition
 
 ## Comparison Operators
 
-To check if two values are equal, we use the *comparison operator* represent with `==` ("double-equal-sign"). If two values are equal, then the statement will return `true`. If they are not equal, then it will return `false`. For example: 
+To check if two values are equal, we use the *comparison operator* represented with `==` ("double-equal-sign"). If two values are equal, then the statement will return `true`. If they are not equal, then it will return `false`. For example: 
 
 ```ruby
 1 == 1
