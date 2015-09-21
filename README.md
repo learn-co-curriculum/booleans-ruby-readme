@@ -23,6 +23,14 @@ We already know that Strings are one type of data that are truthy. Drop into IRB
   #=> true 
 ```
 
+*Note:* You may see a warning regarding String literals when you run the above code. Ignore it! Ruby is just reminding us that it is a little strange to use the literal string `"hi"` in a statement, instead of saving it to a varialbe first. For example:
+
+```ruby
+string = "hi"
+!!string
+```
+We used the literal string in this example though to highlight the "truthy" nature of strings. 
+
 In the next unit, we will learn how to use the native truthiness of data types like strings to write statements that return `true`. 
 
 First, we're going to learn how to use **boolean operators** to write statements that return `true` or `false`.
