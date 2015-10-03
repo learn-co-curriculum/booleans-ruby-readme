@@ -23,7 +23,7 @@ We already know that Strings are one type of data that are truthy. Drop into IRB
   #=> true 
 ```
 
-*Note:* You may see a warning regarding String literals when you run the above code. Ignore it! Ruby is just reminding us that it is a little strange to use the literal string `"hi"` in a statement, instead of saving it to a varialbe first. For example:
+*Note:* You may see a warning regarding String literals when you run the above code. Ignore it! Ruby is just reminding us that it is a little strange to use the literal string `"hi"` in a statement, instead of saving it to a variable first. For example:
 
 ```ruby
 string = "hi"
