@@ -81,49 +81,86 @@ To check if two values are equal, we use the *comparison operator* represented w
 
 ## Let's Practice!
 
-Open up IRB and enter individually each of these lines below. Try to predict what the result will be before running it in IRB:
+?: `isfalse && istrue`
 
-```ruby
-true && true
+( )`istrue` (X)`isfalse`
 
-false && true
+?: `istrue && istrue`
 
-1 == 1 && 2 == 1
+(X)`istrue` ( )`isfalse`
 
-"awesome" == "awesome"
+?: `"test" == "test"`
 
-1 == 1 || 2 != 1
+(X)`istrue` ( )`isfalse`
 
-true && 1 == 1
+?: `10 == 10 || 20 != 10`
 
-false && 0 != 0
+(X)`istrue` ( )`isfalse`
 
-true || 1 == 1
+?: `10 == 10 && 20 == 10`
 
-"failing" == "fail"
+( )`istrue` (X)`isfalse`
 
-1 != 0 && 2 == 1
+?: `istrue && 10 == 10`
 
-"learn" != "learning"
+(X)`istrue` ( )`isfalse`
 
-"one" == 1
+?: `istrue || 10 == 10`
 
-!(true && false)
+(X)`istrue` ( )`isfalse`
 
-!(1 == 1 && 0 != 1)
+?: `isfalse && 10 != 10`
 
-!(10 == 1 || 1000 == 1000)
+( )`istrue` (X)`isfalse`
 
-!(1 != 10 || 3 == 4)
+?: `"boolean" == "booleans"`
 
-!("code" == "code" && "programming" == "code")
+( )`istrue` (X)`isfalse`
 
-1 == 1 && (!("one" == 1 || 1 == 0))
+?: `"boolean" != "booleans"`
 
-"ada" == "lovelace" && (!(3 == 4 || 3 == 3))
+(X)`istrue` ( )`isfalse`
 
-3 == 3 && (!("learning" == "learning" || "Ruby" == "Fun"))
-```
+?: `10 != 0 && 20 == 10`
+
+( )`istrue` (X)`isfalse`
+
+?: `"boolean" == 1`
+
+( )`istrue` (X)`isfalse`
+
+?: `!(istrue && isfalse)`
+
+( )`istrue` (X)`isfalse`
+
+?: `!(1000 == 1 || 10000 == 10000)`
+
+(X)`istrue` ( )`isfalse`
+
+?: `!(10 == 10 && 20 != 10)`
+
+( )`istrue` (X)`isfalse`
+
+?: `!(1 != 100 || 30 == 40)`
+
+( )`istrue` (X)`isfalse`
+
+?: `!("boolean" == "booleans" && "Code" == "Fun")`
+
+(X)`istrue` ( )`isfalse`
+
+?: `1 == 1 && (!("boolean" == 1 || 1 == 0))`
+
+(X)`istrue` ( )`isfalse`
+
+?: `"strong" == "coffee" && (!(30 == 40 || 30 == 30))`
+
+( )`istrue` (X)`isfalse`
+
+?: `30 == 30 && (!("boolean" == "booleans" || "Coding" == "Awesome"))`
+
+( )`istrue` (X)`isfalse`
+
 
 ## More Comparison Operators
 
