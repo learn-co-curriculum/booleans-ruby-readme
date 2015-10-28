@@ -81,6 +81,8 @@ To check if two values are equal, we use the *comparison operator* represented w
 
 ## Let's Practice!
 
+???
+
 ?: `isfalse && istrue`
 
 ( )`istrue` (X)`isfalse`
@@ -161,6 +163,7 @@ To check if two values are equal, we use the *comparison operator* represented w
 
 ( )`istrue` (X)`isfalse`
 
+???
 
 ## More Comparison Operators
 
