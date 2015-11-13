@@ -79,7 +79,9 @@ To check if two values are equal, we use the *comparison operator* represented w
 
 **Top-tip:** *The comparison operator* `==` *is distinct from the assignment operator* `=` *that is used to set a variable equal to a value. Mistaking these for each other is a common cause of unexpected behavior.*
 
-## Let's Practice!
+???
+
+# Let's Practice!
 
 ?: `isfalse && istrue`
 
@@ -161,6 +163,7 @@ To check if two values are equal, we use the *comparison operator* represented w
 
 (X)`istrue` ()`isfalse`
 
+???
 
 ## More Comparison Operators
 
