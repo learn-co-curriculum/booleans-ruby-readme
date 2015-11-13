@@ -129,13 +129,13 @@ To check if two values are equal, we use the *comparison operator* represented w
 
 ?: `"boolean" == 1`
 
-( )`istrue` (X)`isfalse` 
+( )`istrue` (X)`isfalse`
 
 ?: `!(istrue && isfalse)`
 
 (X)`istrue` ( )`isfalse`
 
-?: `!(1000 == 1 || 10000 == 10000)` 
+?: `!(1000 == 1 || 10000 == 10000)`
 
 ( )`istrue` (X)`isfalse`
 
