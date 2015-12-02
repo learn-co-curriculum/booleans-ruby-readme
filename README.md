@@ -220,3 +220,5 @@ ducklings.class == easter_eggs.class #=> true
 ```
 
 Comparison operators are essential to developing logical flow.
+
+<a href='https://learn.co/lessons/booleans-ruby-readme' data-visibility='hidden'>View this lesson on Learn.co</a>
