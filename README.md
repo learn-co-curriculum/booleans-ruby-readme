@@ -214,11 +214,13 @@ ducklings == easter_eggs #=> false
 
 # if you call class on a variable, you can see if it's a string, an integer, etc.
 
-ducklings.class #=> Integer
-easter_eggs.class #=> Integer
+ducklings.class #=> Fixnum
+easter_eggs.class #=> Fixnum
 ducklings.class == easter_eggs.class #=> true
 ```
 
 Comparison operators are essential to developing logical flow.
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/booleans-ruby-readme' title='Booleans and Comparisons'>Booleans and Comparisons</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/booleans-ruby-readme'>Booleans</a> on Learn.co and start learning to code for free.</p>
