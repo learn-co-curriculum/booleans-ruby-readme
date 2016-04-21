@@ -83,85 +83,85 @@ To check if two values are equal, we use the *comparison operator* represented w
 
 # Let's Practice!
 
-?: `isfalse && istrue`
+?: `false && true`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
-?: `istrue && istrue`
+?: `true && true`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
 ?: `"test" == "test"`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
 ?: `10 == 10 || 20 != 10`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
 ?: `10 == 10 && 20 == 10`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
-?: `istrue && 10 == 10`
+?: `true && 10 == 10`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
-?: `istrue || 10 == 10`
+?: `true || 10 == 10`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
-?: `isfalse && 10 != 10`
+?: `false && 10 != 10`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
 ?: `"boolean" == "booleans"`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
 ?: `"boolean" != "booleans"`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
 ?: `10 != 0 && 20 == 10`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
 ?: `"boolean" == 1`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
-?: `!(istrue && isfalse)`
+?: `!(true && false)`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
 ?: `!(1000 == 1 || 10000 == 10000)`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
 ?: `!(10 == 10 && 20 != 10)`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
 ?: `!(1 != 100 || 30 == 40)`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
 ?: `!("boolean" == "booleans" && "Code" == "Fun")`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
 ?: `1 == 1 && (!("boolean" == 1 || 1 == 0))`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
 ?: `"strong" == "coffee" && (!(30 == 40 || 30 == 30))`
 
-( )`istrue` (X)`isfalse`
+( )`true` (X)`false`
 
 ?: `30 == 30 && (!("boolean" == "booleans" || "Coding" == "Awesome"))`
 
-(X)`istrue` ( )`isfalse`
+(X)`true` ( )`false`
 
 ???
 
