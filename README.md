@@ -79,92 +79,6 @@ To check if two values are equal, we use the *comparison operator* represented w
 
 **Top-tip:** *The comparison operator* `==` *is distinct from the assignment operator* `=` *that is used to set a variable equal to a value. Mistaking these for each other is a common cause of unexpected behavior.*
 
-???
-
-# Let's Practice!
-
-?: `false && true`
-
-( )`true` (X)`false`
-
-?: `true && true`
-
-(X)`true` ( )`false`
-
-?: `"test" == "test"`
-
-(X)`true` ( )`false`
-
-?: `10 == 10 || 20 != 10`
-
-(X)`true` ( )`false`
-
-?: `10 == 10 && 20 == 10`
-
-( )`true` (X)`false`
-
-?: `true && 10 == 10`
-
-(X)`true` ( )`false`
-
-?: `true || 10 == 10`
-
-(X)`true` ( )`false`
-
-?: `false && 10 != 10`
-
-( )`true` (X)`false`
-
-?: `"boolean" == "booleans"`
-
-( )`true` (X)`false`
-
-?: `"boolean" != "booleans"`
-
-(X)`true` ( )`false`
-
-?: `10 != 0 && 20 == 10`
-
-( )`true` (X)`false`
-
-?: `"boolean" == 1`
-
-( )`true` (X)`false`
-
-?: `!(true && false)`
-
-(X)`true` ( )`false`
-
-?: `!(1000 == 1 || 10000 == 10000)`
-
-( )`true` (X)`false`
-
-?: `!(10 == 10 && 20 != 10)`
-
-( )`true` (X)`false`
-
-?: `!(1 != 100 || 30 == 40)`
-
-( )`true` (X)`false`
-
-?: `!("boolean" == "booleans" && "Code" == "Fun")`
-
-(X)`true` ( )`false`
-
-?: `1 == 1 && (!("boolean" == 1 || 1 == 0))`
-
-(X)`true` ( )`false`
-
-?: `"strong" == "coffee" && (!(30 == 40 || 30 == 30))`
-
-( )`true` (X)`false`
-
-?: `30 == 30 && (!("boolean" == "booleans" || "Coding" == "Awesome"))`
-
-(X)`true` ( )`false`
-
-???
-
 ## More Comparison Operators
 
 Ruby is good at comparing things. For instance, it knows that `14` is larger than `3`. Let's see that in action.
@@ -220,7 +134,3 @@ ducklings.class == easter_eggs.class #=> true
 ```
 
 Comparison operators are essential to developing logical flow.
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/booleans-ruby-readme' title='Booleans and Comparisons'>Booleans and Comparisons</a> on Learn.co and start learning to code for free.</p>
-
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/booleans-ruby-readme'>Booleans</a> on Learn.co and start learning to code for free.</p>
