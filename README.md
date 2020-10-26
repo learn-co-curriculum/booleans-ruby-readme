@@ -91,14 +91,36 @@ Here, `14` is larger than `3`, so Ruby evaluates this to `true`. Comparisons in 
 
 The commonly used comparison operators are:
 
-| Operator | Operation |
-|:--------:|:----------|
-| `==`     | If the values of the two operands are *equal*, then the evaluation is `true`. |
-| `!=`     | If the values of the two operands are *not equal*, then the evaluation is `true`. |
-| `>`      | If the value of the left operand is *greater than* the value of the right operand, then the evaluation is `true`. |
-| `<`      | If the value of the left operand is less than the value of the right operand, then the evaluation is `true`. |
-| `>=`     | If the value of the left operand is *greater than or equal to* the value of the right operand, then the evaluation is `true`. |
-| `<=`     | If the left operand is *less than or equal to* the value of the right operand, then the evaluation is `true`. |
+<table border="1" cellpadding="4" cellspacing="0">
+  <tr>
+    <th>Operator</th>
+    <th>Operation</th>
+  </tr>
+  <tr>
+    <td><code>==</code></td>
+    <td>If the values of the two operands are <em>equal</em>, then the evaluation is <code>true</code>.</td>
+  </tr>
+  <tr>
+    <td><code>!=</code></td>
+    <td>If the values of the two operands are <em>not equal</em>, then the evaluation is <code>true</code>.</td>
+  </tr>  
+  <tr>
+    <td><code>&gt;</code></td>
+    <td>If the value of the left operand is <em>greater than</em> the value of the right operand, then the evaluation is <code>true</code>.</td>
+  </tr>
+  <tr>
+    <td><code>&lt;</code></td>
+    <td>If the value of the left operand is <em>less than</em> the value of the right operand, then the evaluation is <code>true</code>.</td>
+  </tr>
+  <tr>
+    <td><code>&gt;=</code></td>
+    <td>If the value of the left operand is <em>greater than or equal to</em> the value of the right operand, then the evaluation is <code>true</code>.</td>
+  </tr>
+  <tr>
+    <td><code>&lt;=</code></td>
+    <td>If the value of the left operand is <em>less than or equal to</em> the value of the right operand, then the evaluation is <code>true</code>.</td>
+  </tr>
+</table>
 
 Ruby can compare a lot more than just numbers. It can also compare strings:
 
